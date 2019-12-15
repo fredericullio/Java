@@ -1,5 +1,7 @@
 package com.jerrosHaven;
 
+//A program counting a number of comparisons needed to find a given element in a given array of numbers using jump search.
+
 import java.util.Scanner;
 
 public class FindNumberOfComparisons {
