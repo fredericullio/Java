@@ -1,8 +1,10 @@
 package com.jerrosHaven;
 
+/* Recursively written binary search algorithm checking for array[i]==i case and returning a boolean*/
+
 import java.util.Scanner;
 
-class fixedPointRecursiveBinarySearch {
+class FixedPointRecursiveBinarySearch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] arr = new int[sc.nextInt()];
