@@ -1,5 +1,8 @@
 package com.jerrosHaven;
 
+/*A method performs binary search throughout a descendingly sorted array of integers and returns 
+an index of the leftmost instance of the sought number.*/
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
