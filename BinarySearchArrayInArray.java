@@ -1,5 +1,9 @@
 package com.jerrosHaven;
 
+/* A program accepts two arrays from the standard input. Then it enables a user to search 
+for elements from the second in the first one. If a number is found its index in the first 
+array is appended to a string printed as a result of the program. If the number is not found "-1" is appended.*/
+
 import java.util.Scanner;
 
 class BinarySearchArrayInArray {
