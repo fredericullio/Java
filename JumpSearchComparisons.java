@@ -1,5 +1,9 @@
 package com.jerrosHaven;
 
+/*A program that prints how many comparisons is needed to find an element 
+in an array at a given index using jump search algorithm. 
+The length of the array is provided by the way of standard input.*/
+
 import java.util.Scanner;
 
 public class JumpSearchComparisons {
