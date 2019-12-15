@@ -1,5 +1,10 @@
 package com.jerrosHaven;
 
+/*An overcomplicated HTML parser I've written using regular expressions.
+It prints contents enclosed by tags (the most nested first) from a string 
+provided by the way of standard input. I later realized I didn't need regex 
+at all but this is what I came up with originally.*/
+
 import java.util.ArrayDeque;
 import java.util.Scanner;
 import java.util.regex.Matcher;
