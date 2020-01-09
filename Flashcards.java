@@ -236,7 +236,7 @@ public class Main {
             flashCard.resetErrorCount();
         }
     }
-    
+
     static void getHighestErrorCountCard() {
         int highestErrorCount = 0;
         ArrayList<FlashCard> cards = new ArrayList<>();
