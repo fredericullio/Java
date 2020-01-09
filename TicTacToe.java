@@ -1,9 +1,12 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+//The game accepts input in a form of two integers: a column number and a row number.
+
 public class TicTacToe{
     static Scanner input = new Scanner(System.in);
     static char[] marks = new char[] {'X', 'O'};
+
     public static void main(String[] args) {
 
         char[][] marksBoard = {
@@ -29,7 +32,7 @@ public class TicTacToe{
         }
     }
 
-    public static void placeMarker(char[][] marks, char currentPlayer) {
+    private static void placeMarker(char[][] marks, char currentPlayer) {
         int cols;
         int rows;
 
@@ -62,7 +65,7 @@ public class TicTacToe{
         }
     }
 
-    public static void printBoard(char[][] marks) {
+    private static void printBoard(char[][] marks) {
         System.out.println("---------");
         for (int i=marks.length-1; i>=0; i--) {
             System.out.print("| ");
@@ -75,7 +78,7 @@ public class TicTacToe{
         System.out.println("---------");
     }
 
-    public static boolean isWinner(char[][] marks, char ch) {
+    private static boolean isWinner(char[][] marks, char ch) {
         ArrayList<String> markList = new ArrayList<>();
         boolean isWinner = false;
         String[][] wins = {
@@ -112,7 +115,7 @@ public class TicTacToe{
         return isWinner;
     }
 
-    public static boolean areEmptySlots(char[][] marks) {
+    private static boolean areEmptySlots(char[][] marks) {
         boolean areEmptySlots = false;
         for (char[] mark : marks) {
             for (char c : mark) {
